@@ -15,7 +15,7 @@ router.post('/register', (req, res) => {
     res.status(201).json({ message: "successfully registered", token });
   } catch (error) {
     console.log(error);
-    res.status(500).json({ message: "internal server error occured" });
+    res.status(500).json({ message: "internal server error occurred" });
   }
 });
 
